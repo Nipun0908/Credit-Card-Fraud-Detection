@@ -18,5 +18,7 @@ The dataset used contains transactions made by credit cards in September 2013 by
 3.	Install Requirements
 4.	Execute Pipeline:
 python code.py
-
+## Performance Benchmark
+Given the immense class imbalance, Macro Average Recall and F1-Score are prioritized over basic accuracy metrics to ensure fraudulent vectors are flagged cleanly without generating excessive false negatives.
+<img width="804" height="93" alt="Screenshot (390)" src="https://github.com/user-attachments/assets/175c7e8e-2ed7-48e5-837e-ed78e8337042" />
 
